@@ -80,9 +80,9 @@ export default function LandingPage() {
                 </Button>
                 <Button
                   variant="yellow"
-                  onClick={() => navigate("/verify-land")}
+                  onClick={() => navigate("/check-assets")}
                 >
-                  Verify Ownership
+                  Check your assets
                 </Button>
               </div>
             </div>
