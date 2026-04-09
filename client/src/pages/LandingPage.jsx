@@ -73,7 +73,7 @@ export default function LandingPage() {
                 {/* Navigation Added to Buttons */}
                 <Button
                   variant="primary"
-                  onClick={() => navigate("/submit-blockchain")}
+                  onClick={() => navigate("/verify-aadhaar")}
                 >
                   Register Property
                 </Button>
