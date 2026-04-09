@@ -3,11 +3,7 @@ import React, { createContext, useContext, useState } from 'react'
 export const VerifyDataContext = createContext()
 
 const VerifyDataContextProvider = ({ children }) => {
-    const [verifyData, setVerifyData] = useState({
-        aadhaar: "399194356894",
-        name: "Tarapada Garai",
-        address: "Delhi, India",
-    });
+    const [verifyData, setVerifyData] = useState({});
     return (
         <VerifyDataContext.Provider value={{ verifyData, setVerifyData }}>
             {children}
